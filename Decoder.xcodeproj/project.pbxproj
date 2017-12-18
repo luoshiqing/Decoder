@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FBA8D78C1FE7A9AE004612D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA8D78B1FE7A9AE004612D3 /* ViewController.swift */; };
 		FBC434371FE7A77B000A5B1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC434361FE7A77B000A5B1C /* AppDelegate.swift */; };
 		FBC4343C1FE7A77B000A5B1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC4343A1FE7A77B000A5B1C /* Main.storyboard */; };
 		FBC4343E1FE7A77B000A5B1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC4343D1FE7A77B000A5B1C /* Assets.xcassets */; };
 		FBC434411FE7A77B000A5B1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC4343F1FE7A77B000A5B1C /* LaunchScreen.storyboard */; };
 		FBC4344A1FE7A78A000A5B1C /* LsqJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC434481FE7A78A000A5B1C /* LsqJson.swift */; };
-		FBC4344B1FE7A78A000A5B1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC434491FE7A78A000A5B1C /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FBA8D78B1FE7A9AE004612D3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FBC434331FE7A77B000A5B1C /* Decoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Decoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC434361FE7A77B000A5B1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBC4343B1FE7A77B000A5B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		FBC434401FE7A77B000A5B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBC434421FE7A77B000A5B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBC434481FE7A78A000A5B1C /* LsqJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LsqJson.swift; sourceTree = "<group>"; };
-		FBC434491FE7A78A000A5B1C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../Protocol/Protocol/ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				FBC434361FE7A77B000A5B1C /* AppDelegate.swift */,
 				FBC434481FE7A78A000A5B1C /* LsqJson.swift */,
-				FBC434491FE7A78A000A5B1C /* ViewController.swift */,
+				FBA8D78B1FE7A9AE004612D3 /* ViewController.swift */,
 				FBC4343A1FE7A77B000A5B1C /* Main.storyboard */,
 				FBC4343D1FE7A77B000A5B1C /* Assets.xcassets */,
 				FBC4343F1FE7A77B000A5B1C /* LaunchScreen.storyboard */,
@@ -139,8 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBA8D78C1FE7A9AE004612D3 /* ViewController.swift in Sources */,
 				FBC4344A1FE7A78A000A5B1C /* LsqJson.swift in Sources */,
-				FBC4344B1FE7A78A000A5B1C /* ViewController.swift in Sources */,
 				FBC434371FE7A77B000A5B1C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
